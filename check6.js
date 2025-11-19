@@ -38,7 +38,7 @@
             };
 
             // Кэш отключаем
-            img.src = url + "/static/conf/img/test.jpg?ts=" + Date.now();
+            img.src = url + "/static/conf/img/test1mb.png?ts=" + Date.now();
         });
     }
 
