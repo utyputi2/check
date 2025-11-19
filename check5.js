@@ -38,7 +38,7 @@
             };
 
             // Кэш отключаем
-            img.src = url + "/static/conf/img/favicon.ico?ts=" + Date.now();
+            img.src = url + "/static/conf/img/test.jpg?ts=" + Date.now();
         });
     }
 
