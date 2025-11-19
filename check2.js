@@ -3,12 +3,12 @@
     // const GERMAN_SERVER = "https://support1c.giftru.xyz"; // немецкий сервер
     
     const GERMAN_SERVER = "https://httpbin.org/delay/5";
-    const RU_PROXY = "https://support1c.giftru.xyz";   // русский прокси
+    const RU_PROXY = "https://support1c-ru.giftru.xyz";   // русский прокси
     const TIMEOUT_MS = 3000; 
     const CHECK_INTERVAL_MS = 60 * 60 * 1000; // 1 час
 
     // Если мы уже на русском прокси — не проверяем
-    if (window.location.hostname === "support1c.giftru.xyz") return;
+    if (window.location.hostname === "support1c-ru.giftru.xyz") return;
 
     const lastCheck = localStorage.getItem("german_server_last_check");
     const lastOk = localStorage.getItem("german_server_ok");
